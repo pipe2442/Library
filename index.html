@@ -12,7 +12,15 @@
     <input id="title" type="text" placeholder="Book Title">
     <input id="author" type="text" placeholder="Book Author">
     <input id="date" type="text" placeholder="Publish Date">
-    <button>New Book</button>
+
+    <select id="read" name="read">
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+    </select> 
+
+    <input type="button" value="New Book" onclick="add_book()">
+
+    <div id="display"></div>
 
     <script src="app.js"></script>
 </body>
