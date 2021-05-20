@@ -14,8 +14,10 @@ function Book(title, author, date, read) {
 
 function add_book() {
     var newBook = new Book(title_input, author_input, date_input, read_input)
-    library.push(`Title: ${newBook.title.value} <br>`+`Author: ${newBook.author.value} <br>`+
-    `Realease date: ${newBook.date.value} <br>`+`Readed: ${newBook.read.value} <br>` )
+    library.push({title: newBook.title.value, 
+        author: newBook.author.value,
+        date: newBook.date.value,
+        read: newBook.read.value} )
     show_library(); 
 };
 
@@ -24,10 +26,31 @@ function delete_book(arr, index){
     show_library(); 
 }
 
+function read_status(arr, i){
+    if(arr[i].read == 'yes') {
+        arr[i].read = 'no'
+    } else {
+        arr[i].read = 'yes'
+    } 
+    show_library(); 
+}
+
 function show_library() {
+    title_input.value = "";
+    author_input.value = "";
+    date_input.value = "";
+
     document.getElementById("display").innerHTML = "";
     for(i = 0; i<library.length; i++){
-        document.getElementById("display").innerHTML += library[i]+
-        `<button onclick="delete_book(library, ${i});">Delete</button><br>`;
+        document.getElementById("display").innerHTML +=
+        `<div class="d-flex justify-content-center flex-column text-center m-5">
+            <div>
+                Title: ${library[i].title + '<br> Author: ' +library[i].author + '<br> Publish Date: '+ library[i].date + '<br> Read Status: '+ library[i].read}
+            </div>
+            <div>
+                <button class="btn btn-primary my-2" onclick="delete_book(library, ${i});">Delete</button><br>
+                <button class="btn btn-primary my-2" onclick="read_status(library, ${i});">Read Status</button><br>
+            </div>
+        </div>` 
     }
 };
