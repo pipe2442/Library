@@ -43,7 +43,7 @@ function show_library() {
     document.getElementById("display").innerHTML = "";
     for(i = 0; i<library.length; i++){
         document.getElementById("display").innerHTML +=
-        `<div class="d-flex justify-content-center flex-column text-center m-5">
+        `<div class="d-flex justify-content-center flex-column text-center m-5 card bg-light p-5 rounded shadow">
             <div>
                 Title: ${library[i].title + '<br> Author: ' +library[i].author + '<br> Publish Date: '+ library[i].date + '<br> Read Status: '+ library[i].read}
             </div>
