@@ -61,3 +61,5 @@ function readStatus(arr, i) {
   }
   showLibrary();
 }
+
+console.log(addBook, deleteBook, readStatus);
