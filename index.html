@@ -13,7 +13,8 @@
   <div class="d-flex justify-content-center"> 
     <input id="title" type="text" placeholder="Book Title" class="mx-2">
     <input id="author" type="text" placeholder="Book Author" class="mx-2">
-    <input id="date" type="text" placeholder="Publish Date" class="mx-2">
+    <input id="pages" type="number" placeholder="Pages" class="mx-2">
+    <input id="date" type="date" class="mx-2">
     <select id="read" name="read" class="mx-2">
       <option value="yes">yes</option>
       <option value="no">no</option>
@@ -21,7 +22,7 @@
   </div>
 
   <div class="d-flex justify-content-center my-5">
-    <input type="button" value="New Book" onclick="add_book()">
+    <input type="button" value="New Book" onclick="addBook()">
   </div>
   <div id="display" class="d-flex justify-content-center"></div>
   <script src="app.js"></script>
