@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const library = [];
 
 const titleInput = document.getElementById('title');
@@ -61,5 +62,3 @@ function readStatus(arr, i) {
   }
   showLibrary();
 }
-
-console.log(addBook, deleteBook, readStatus);
