@@ -16,8 +16,9 @@ This project has been developed to accomplish basic javascript module at Microve
 
 - [Javascript](https://www.javascript.com/).
 - [Html](https://html.com/).
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
+- [Bootstrap](https://getbootstrap.com/).  
 - [Git](https://www.w3.org/Style/CSS/Overview.en.html).
-- [Rubocop](https://getbootstrap.com/). 
 
 ## Live Demo
 
