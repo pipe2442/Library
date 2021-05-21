@@ -59,7 +59,7 @@ Give a ⭐️ if you like this project! 🤝
 
 ## Acknowledgments
 
-- [Thanks Microverse][https://github.com/microverseinc]
+- [Thanks Microverse](https://github.com/microverseinc)
   
 ## 📝 License
 
