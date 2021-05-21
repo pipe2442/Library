@@ -10,9 +10,7 @@ This is a basic javascript project, you should expect from this projectt the fol
 
 This project has been developed to accomplish basic javascript module at Microverse.
 
-![screenshot]()
-
-![screenshot]()
+![screenshot](https://github.com/pipe2442/Library/blob/library-feature/assets/images/javascript.png)
 
 ## Built With
 
@@ -38,7 +36,7 @@ This project has been developed to accomplish basic javascript module at Microve
 - Launch the application from index.html.
 
 # Project Screenshot
-![screenshot]()
+![screenshot](https://github.com/pipe2442/Library/blob/library-feature/assets/images/projectscreen.PNG)
 
 ## Authors
 
