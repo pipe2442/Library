@@ -22,7 +22,7 @@ This project has been developed to accomplish basic javascript module at Microve
 
 ## Live Demo
 
-- [Hosted githack](https://rawcdn.githack.com/pipe2442/Library/6b24d62ea46d5a2b8027dd19bfaf4dd93bac1116/index.html)
+- [Hosted githack](https://raw.githack.com/pipe2442/Library/library-feature/index.html)
 
 ## Getting Started
 
