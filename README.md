@@ -10,16 +10,15 @@ This is a basic javascript project, you should expect from this projectt the fol
 
 This project has been developed to accomplish basic javascript module at Microverse.
 
-![screenshot]()
-
-![screenshot]()
+![screenshot](https://github.com/pipe2442/Library/blob/library-feature/assets/images/javascript.png)
 
 ## Built With
 
 - [Javascript](https://www.javascript.com/).
 - [Html](https://html.com/).
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html).
+- [Bootstrap](https://getbootstrap.com/).  
 - [Git](https://www.w3.org/Style/CSS/Overview.en.html).
-- [Rubocop](https://getbootstrap.com/). 
 
 ## Live Demo
 
@@ -38,7 +37,7 @@ This project has been developed to accomplish basic javascript module at Microve
 - Launch the application from index.html.
 
 # Project Screenshot
-![screenshot]()
+![screenshot](https://github.com/pipe2442/Library/blob/library-feature/assets/images/projectscreen.PNG)
 
 ## Authors
 
@@ -60,7 +59,7 @@ Give a ⭐️ if you like this project! 🤝
 
 ## Acknowledgments
 
-- [Thanks Microverse][https://github.com/microverseinc]
+- [Thanks Microverse](https://github.com/microverseinc)
   
 ## 📝 License
 
